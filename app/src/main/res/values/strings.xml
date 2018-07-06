@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Books</string>
+    <string name="editor_activity_title_new_book">Add a Book</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="product_details">Product details</string>
+    <string name="hint_product_name">Product name</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_price_ex">ex: 12.85</string>
+    <string name="hint_product_price">Price</string>
+    <string name="unit_product_price">€</string>
+    <string name="hint_product_quantity">Quantity</string>
+    <string name="hint_product_author">Author</string>
+    <string name="hint_product_supplier_name">Supplier name</string>
+    <string name="hint_product_supplier_phone_number">Phone number</string>
+
+    <string name="editor_activity_title_new_product">Add a Product</string>
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+    <string name="editor_delete_product_failed">Error with deleting a product</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete_dialog_msg1">Delete all products?</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="editor_insert_product_failed">Error with saving product</string>
+    <string name="editor_insert_product_successful">Product saved correctly</string>
+    <string name="editor_update_product_succesful">Product updated correctly</string>
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="product_name_required">Product requires a name</string>
+    <string name="product_valid_price">Product requires valid price</string>
+    <string name="product_valid_quantity">Product requires valid quantity</string>
+    <string name="product_supplier_name_required">Product require valid supplier name</string>
+    <string name="product_valid_supplier_phone_number">Product requires valid supplier phone number</string>
+
+    <string name="empty_view_title_text">No data to display</string>
+    <string name="empty_view_subtitle_text">To start click on the add button at the bottom left</string>
+    <string name="empty_view_subtitle_text1">You have to insert some informations:</string>
+    <string name="empty_view_subtitle_text2">1) Product name, is required</string>
+    <string name="empty_view_subtitle_text3">2) Product price, is required</string>
+    <string name="empty_view_subtitle_text4">3) Product author, is not required</string>
+    <string name="empty_view_subtitle_text5">4) Product supplier, is required</string>
+    <string name="empty_view_subtitle_text6">5) Supplier phone number, is required</string>
+    <string name="empty_view_subtitle_text7">6) Product quantity, is required</string>
+    <string name="empty_view_subtitle_text8">finally click on the check mark at the top right to save</string>
+
+    <string name="sale_button_text">SELL</string>
+
+    <string name="cannot_update_quantity">Insufficient quantity to sell, reorder</string>
+
+    <string name="dash">-</string>
+    <string name="plus">+</string>
+
+    <string name="quantity_cannot_be_negative">Zero is the lowest amount</string>
+
+    <string name="delete_product">DELETE</string>
+    <string name="order_product">CALL TO ORDER</string>
+
+    <string name="cannot_query">Cannot query unknown URI</string>
+
+    <string name="insertion_not_supported">Insertion is not supported for</string>
+    <string name="failed_insert">Failed to insert row for</string>
+    <string name="delete_not_supported">Delete is not supported for</string>
+    <string name="update_not_supported">Update is not supported for</string>
+
+</resources>

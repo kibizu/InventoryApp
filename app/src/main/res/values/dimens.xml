@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin16">16dp</dimen>
+
+    <dimen name="margin26">26dp</dimen>
+
+    <dimen name="margin34">34dp</dimen>
+
+    <dimen name="margin50">50dp</dimen>
+
+    <dimen name="padding4">4dp</dimen>
+
+    <dimen name="padding5">5dp</dimen>
+
+    <dimen name="padding8">8dp</dimen>
+
+    <dimen name="padding10">10dp</dimen>
+
+    <dimen name="padding16">16dp</dimen>
+
+    <dimen name="item_height">64dp</dimen>
+
+    <dimen name="width250">250dp</dimen>
+
+    <dimen name="text_sale_button">10sp</dimen>
+
+    <dimen name="quantity_width">115dp</dimen>
+
+    <dimen name="dash_e_plus_buttons_dimension">48dp</dimen>
+
+</resources>

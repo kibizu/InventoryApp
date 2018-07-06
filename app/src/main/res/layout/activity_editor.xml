@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin16"
+        tools:context=".EditorActivity">
+
+        <!-- Overview category -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                style="@style/CategoryStyle"
+                android:paddingLeft="@dimen/padding4"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/hint_product_name"
+                    android:textColor="@color/colorAccent"
+                     />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/hint_price"
+                    android:layout_marginTop="@dimen/margin26"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/hint_product_author"
+                    android:layout_marginTop="@dimen/margin26"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/hint_product_supplier_name"
+                    android:layout_marginTop="@dimen/margin26"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/hint_product_supplier_phone_number"
+                    android:layout_marginTop="@dimen/margin26"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/hint_product_quantity"
+                    android:layout_marginTop="@dimen/margin34"
+                    android:textColor="@color/colorAccent"
+                    />
+
+            </LinearLayout>
+
+            <!-- Input fields -->
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:paddingLeft="@dimen/padding4"
+                android:orientation="vertical">
+
+                <!-- Product name field -->
+                <EditText
+                    android:id="@+id/edit_product_name"
+                    android:inputType="textCapWords"
+                    style="@style/EditorFieldStyle" />
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    >
+                    <!-- Price field -->
+
+                    <EditText
+                        android:id="@+id/edit_product_price"
+                        android:inputType="numberDecimal"
+                        android:hint="@string/hint_price_ex"
+                        style="@style/EditorFieldStyle" />
+
+                    <!-- Units for price (€) -->
+                    <TextView
+                        android:id="@+id/label_price_unit"
+                        android:text="@string/unit_product_price"
+                        style="@style/EditorUnitsStyle"/>
+
+                </RelativeLayout>
+
+                <!-- The author of the book if exists-->
+
+                <EditText
+                    android:id="@+id/edit_product_author"
+                    android:inputType="textCapWords"
+                    style="@style/EditorFieldStyle" />
+
+                <EditText
+                    android:id="@+id/edit_product_supplier_name"
+                    android:inputType="textCapWords"
+                    style="@style/EditorFieldStyle" />
+
+                <EditText
+                    android:id="@+id/edit_product_supplier_phone_number"
+                    android:inputType="number"
+                    style="@style/EditorFieldStyle" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/dash"
+                        android:layout_width="@dimen/dash_e_plus_buttons_dimension"
+                        android:layout_height="@dimen/dash_e_plus_buttons_dimension"
+                        android:text="@string/dash" />
+
+                    <TextView
+                        android:layout_width="@dimen/quantity_width"
+                        android:layout_height="match_parent"
+                        android:id="@+id/edit_product_quantity"
+                        android:hint="0"
+                        android:textAlignment="center"
+                        android:inputType="number"
+                        android:gravity="bottom"
+                        android:paddingBottom="@dimen/padding5"
+                        style="@style/EditorFieldStyle" />
+
+                    <Button
+                        android:id="@+id/plus"
+                        android:layout_width="@dimen/dash_e_plus_buttons_dimension"
+                        android:layout_height="@dimen/dash_e_plus_buttons_dimension"
+                        android:text="@string/plus" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin50"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/delete"
+                        />
+
+                    <Button
+                        android:id="@+id/order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/order_product"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
